@@ -3,4 +3,8 @@ from model.Pessoa import Pessoa
 
 #Exemplo de uso
 poyatos = Pessoa(1, "Henrique Poyatos")
-print(poyatos)
+print(poyatos.nome)
+
+#Quero mostrar só o nome
+print(poyatos.nome)
+
